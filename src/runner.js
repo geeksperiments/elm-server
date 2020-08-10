@@ -1,8 +1,8 @@
-import * as denoHttp from "https://deno.land/std@0.60.0/http/server.ts";
-import * as path from "https://deno.land/std@0.60.0/path/mod.ts";
-import { parse as parseFlags } from "https://deno.land/std@0.60.0/flags/mod.ts";
+import * as denoHttp from "https://deno.land/std@0.63.0/http/server.ts";
+import * as path from "https://deno.land/std@0.63.0/path/mod.ts";
+import { parse as parseFlags } from "https://deno.land/std@0.63.0/flags/mod.ts";
 import { config } from "https://deno.land/x/dotenv/mod.ts";
-import { Pool } from "https://deno.land/x/postgres@v0.4.0/mod.ts";
+import { Pool } from "https://deno.land/x/postgres@v0.4.3/mod.ts";
 import { validateJwt } from "https://deno.land/x/djwt@v1.2/validate.ts";
 import {
   makeJwt,
